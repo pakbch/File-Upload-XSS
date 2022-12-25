@@ -22,7 +22,10 @@ File-Upload-XSS is a Python script designed to take advantage of the SVG XSS vul
 
 https://user-images.githubusercontent.com/98830093/209461303-408ae221-f883-4e5d-9291-3e4ea9147441.mp4
 
-
+## Updates
+Added two new websites
+- megaupload.nz
+- openload.cc
 ## Configuration
 
 Don't forget to add your Discord webhook URL in `payload.js` before running the script.
