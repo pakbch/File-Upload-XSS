@@ -5,7 +5,7 @@ File-Upload-XSS is a Python script designed to take advantage of the SVG XSS vul
 ## Features
 
 - Leverages the SVG XSS vulnerability to gather information about users visiting a specific URL
-- Sends gathered information to a Discord webhook for analysis
+- Sends gathered information to a Discord webhook
 
 ## Preview
 
