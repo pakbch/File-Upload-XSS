@@ -7,6 +7,7 @@ Welcome to File-Upload-XSS, a Python script that leverages the SVG XSS vulnerabi
 ![image](https://user-images.githubusercontent.com/98830093/209460560-aa833599-06de-49d4-a465-de2716c0e276.png)
 
 ## Grabbed Information
+![image](https://user-images.githubusercontent.com/98830093/209460842-3a7ba63c-df54-4262-9370-b28b324e20d1.png)
 
 ## Demo
 
