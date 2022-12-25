@@ -29,7 +29,7 @@ File Upload XSS by \033[36m@pakbch
 
 
     # Prompt user to choose a file host
-    print("\033[31m[1] \033[96mannofiles\n\033[31m[2] \033[96mbayfiles\n\033[31m[3] \033[96mletsupload\n\033[31m[4] \033[96mfilechan\n\033[31m[5] \033[96mvshare\n\033[31m[6] \033[96mopenload.cc\n\033[31m[7] \033[96mmegaupload.nz")
+    print("\033[31m[1] \033[96manonfiles.com\n\033[31m[2] \033[96mbayfiles.com\n\033[31m[3] \033[96mletsupload.cc\n\033[31m[4] \033[96mfilechan.org\n\033[31m[5] \033[96mvshare.is\n\033[31m[6] \033[96mopenload.cc\n\033[31m[7] \033[96mmegaupload.nz")
     file_host = input("Choose a file host: ")
     
     # Set the URL based on the user's choice
