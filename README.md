@@ -26,6 +26,10 @@ https://user-images.githubusercontent.com/98830093/209461303-408ae221-f883-4e5d-
 Added two new websites
 - megaupload.nz
 - openload.cc
+- upvid.cc
+- rapidshare.nu
+- hotfile.io
+- lolabits.se
 ## Configuration
 
 Don't forget to add your Discord webhook URL in `payload.js` before running the script.
