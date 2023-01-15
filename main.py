@@ -26,13 +26,9 @@ def main():
 File Upload XSS by \033[36m@pakbch
 """
     print(ascii_art)
-
-
-    # Prompt user to choose a file host
-    print("\033[31m[1] \033[96manonfiles.com\n\033[31m[2] \033[96mbayfiles.com\n\033[31m[3] \033[96mletsupload.cc\n\033[31m[4] \033[96mfilechan.org\n\033[31m[5] \033[96mvshare.is\n\033[31m[6] \033[96mopenload.cc\n\033[31m[7] \033[96mmegaupload.nz")
+    print("\033[31m[1] \033[96manonfiles.com\n\033[31m[2] \033[96mbayfiles.com\n\033[31m[3] \033[96mletsupload.cc\n\033[31m[4] \033[96mfilechan.org\n\033[31m[5] \033[96mvshare.is\n\033[31m[6] \033[96mopenload.cc\n\033[31m[7] \033[96mmegaupload.nz\n\033[31m[8] \033[96mlolabits.se\n\033[31m[9] \033[96mrapidshare.nu\n\033[31m[10] \033[96mupvid.cc\n\033[31m[11] \033[96mhotfile.io")
     file_host = input("Choose a file host: ")
-    
-    # Set the URL based on the user's choice
+
     if file_host == "1":
         url = "https://api.anonfiles.com/upload"
     elif file_host == "2":
@@ -47,6 +43,16 @@ File Upload XSS by \033[36m@pakbch
         url = "https://api.openload.cc/upload"
     elif file_host == "7":
         url = "https://api.megaupload.nz/upload"
+    elif file_host == "8":
+        url = "https://api.lolabits.se/upload"
+    elif file_host == "9":
+        url = "https://api.rapidshare.nu/upload"
+    elif file_host == "10":
+        url = "https://api.upvid.cc/upload"
+    elif file_host == "11":
+        url = "https://api.hotfile.io/upload"
+
+    
     else:
         print("Invalid choice. Please enter a number between 1 and 5.")
         return
@@ -76,15 +82,12 @@ File Upload XSS by \033[36m@pakbch
     print("Done!")
     again = input("Do you want to use the script again? (Y/N) -> ")
     if again.lower() == "y":
-        # Clear the screen and run the script again
         clear_screen()
         main()
     else:
-        # Exit the script
         exit()
 
 def clear_screen():
-    # Clear the screen (works on Windows and Unix-like systems)
     if os.name == "nt":
         os.system("cls")
     else:
@@ -96,4 +99,3 @@ while True:
 if __name__ == '__main__':
     main()
     input("Press enter to exit")
-
